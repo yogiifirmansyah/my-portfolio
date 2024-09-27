@@ -10,7 +10,7 @@
         <div>
           <h5 class="font-medium text-gray-600 dark:text-gray-200">Hello Welcome</h5>
           <h1 class="sm:text-5xl text-4xl !leading-normal dark:text-white relative font-medium">
-            I'm <span class="text-primary">Yogi</span><br />
+            I'm <span class="text-primary">Yogi Firmansyah</span><br />
             Website Developer
           </h1>
           <button class="btn btn-filled mt-5">
