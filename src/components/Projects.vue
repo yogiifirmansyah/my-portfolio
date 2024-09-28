@@ -106,7 +106,7 @@ const nextImage = () => {
           <div class="text-left text-balance p-2">
             <h1 class="font-semibold">Project Name</h1>
             <p class="text-xs font-light mt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum maxime quod quos, rem quae nemo eveniet delectus excepturi illo nesciunt harum quidem? Reiciendis, non perferendis facilis quasi id illo?
+              Lorem ipsum dolor sit amet consecteturr adipisicing elit. Iusto ipsum maxime quod quos, rem quae nemo eveniet delectus excepturi illo nesciunt harum quidem? Reiciendis, non perferendis facilis quasi id illo?
             </p>
           </div>
         </a>
