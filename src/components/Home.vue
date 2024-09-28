@@ -32,14 +32,14 @@
         <div class="flex items-center md:justify-end justify-center mt-9 gap-6 dark:text-gray-200 text-gray-600">
           <p class="text-xs">Follow Us</p>
           <div class="flex gap-3">
-            <a href="#" class="social-icon">
+            <a href="https://github.com/yogiifirmansyah" target="_blank" class="social-icon">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a href="#" class="social-icon">
+            <a href="https://www.linkedin.com/in/moch-yogi-firmansyah-79aa7a252/" target="_blank" class="social-icon">
               <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="#" class="social-icon">
-              <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.instagram.com/frmnsyah.12" target="_blank" class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
         </div>

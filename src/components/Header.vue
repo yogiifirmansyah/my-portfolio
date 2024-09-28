@@ -65,7 +65,7 @@ onUnmounted(() => {
       <div class="flex gap-4 items-center">
         <div class="bg-primary text-white rounded-full size-10 text-xl flex-center">Y</div>
         <div>
-          <h4 class="font-bold text-lg uppercase">Yogi</h4>
+          <h4 class="font-bold text-lg uppercase">Yogi Firmansyah</h4>
           <p class="text-xs">Profile</p>
         </div>
       </div>
@@ -81,7 +81,7 @@ onUnmounted(() => {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact Us</a>
+          <a href="#contact">Contact Me</a>
         </li>
         <span @click="toggleTheme" class="theme-switch md:block hidden">
           <i class="fa-solid fa-circle-half-stroke cursor-pointer"></i>
@@ -89,7 +89,7 @@ onUnmounted(() => {
       </ul>
 
       <div class="flex items-center gap-6">
-        <a href="#contact">
+        <a href="https://wa.me/6283872287687" target="_blank">
           <button class="btn btn-outline md:!flex !hidden"><i class="fa-regular fa-paper-plane"></i> Let's Talk</button>
         </a>
         <span @click="toggleTheme" class="theme-switch md:hidden">
@@ -117,7 +117,7 @@ onUnmounted(() => {
       <a href="#projects" @click="toggleMobileNav">Projects</a>
     </li>
     <li>
-      <a href="#contact" @click="toggleMobileNav">Contact Us</a>
+      <a href="#contact" @click="toggleMobileNav">Contact Me</a>
     </li>
   </ul>
 </template>

@@ -30,7 +30,7 @@
           </form>
         </div>
         <div class="dark:bg-gray-700 bg-white py-12 px-7 md:absolute -right-3 rounded-xl shadow-xl md:w-2/5 h-6/7 top-28 w-full mx-auto">
-          <h3 class="font-semibold text-2xl border-b pb-4 border-gray-600">Drop In Our <br />Office <span class="text-primary">.</span></h3>
+          <h3 class="font-semibold text-2xl border-b pb-4 border-gray-600">My Contact Info</h3>
           <div class="py-4">
             <p class="text-xs text-gray-400 leading-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquam pariatur ut commodi eaque ullam corporis, autem inventore dolor quas nostrum, incidunt labore accusantium, reiciendis quidem mollitia facilis libero
@@ -39,10 +39,7 @@
             <ul class="*:flex *:gap-4 *:items-center *:mt-4">
               <li>
                 <i class="fa-solid fa-location-dot"></i>
-                <div>
-                  <h2>YF Solution</h2>
-                  <address>Bendotretek, Prambon, Sidoarjo</address>
-                </div>
+                <address>Sidoarjo, East Java</address>
               </li>
               <li>
                 <i class="fa-solid fa-envelope"></i>
@@ -56,14 +53,14 @@
             <div class="flex items-center md:justify-end justify-center mt-9 gap-6 dark:text-gray-200 text-gray-600">
               <p class="text-xs">Follow Us</p>
               <div class="flex gap-3">
-                <a href="#" class="social-icon">
+                <a href="https://github.com/yogiifirmansyah" target="_blank" class="social-icon">
                   <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="#" class="social-icon">
+                <a href="https://www.linkedin.com/in/moch-yogi-firmansyah-79aa7a252/" target="_blank" class="social-icon">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="#" class="social-icon">
-                  <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.instagram.com/frmnsyah.12" target="_blank" class="social-icon">
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </div>
             </div>

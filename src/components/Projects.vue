@@ -68,7 +68,7 @@ const nextImage = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, veritatis! Quaerat odio molestias, quam aspernatur repudiandae sed voluptas praesentium obcaecati illo, a in quis, cum magni totam explicabo deleniti vitae?
       </p>
       <br />
-      <div class="flex-center gap-4">
+      <!-- <div class="flex-center gap-4">
         <button class="btn" :class="{ 'btn-filled': selectedCategory === 'All' }" @click="filterCategory('All')">All</button>
         <button class="btn" :class="{ 'btn-filled': selectedCategory === 'Website' }" @click="filterCategory('Website')">Website</button>
         <button class="btn" :class="{ 'btn-filled': selectedCategory === 'Mobile App' }" @click="filterCategory('Mobile App')">Mobile App</button>
@@ -81,7 +81,36 @@ const nextImage = () => {
         class="*:size-full *:object-cover *:border-4 *:dark:border-white *:rounded-md gap-4 *:cursor-pointer *:duration-1000 mx-auto max-w-4xl grid md:grid-rows-2 md:grid-cols-2 md:px-0 px-10 hover:*:cursor-zoom-in hover:*:scale-105"
       >
         <img @click="openModal(index)" v-for="(project, index) in filteredProjects" :key="project.id" :src="project.image[0]" :alt="project.category" />
-      </transition-group>
+      </transition-group> -->
+      <div class="gap-4 mx-auto max-w-4xl grid md:grid-rows-2 md:grid-cols-3 md:px-0 px-10">
+        <a href="" class="size-full object-cover border-4 dark:border-white rounded-md cursor-pointer duration-1000 hover:cursor-zoom-in hover:scale-105">
+          <img src="../assets/images/pro1.jpg" alt="" />
+          <div class="text-left text-balance p-2">
+            <h1 class="font-semibold">Project Name</h1>
+            <p class="text-xs font-light mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum maxime quod quos, rem quae nemo eveniet delectus excepturi illo nesciunt harum quidem? Reiciendis, non perferendis facilis quasi id illo?
+            </p>
+          </div>
+        </a>
+        <a href="" class="size-full object-cover border-4 dark:border-white rounded-md cursor-pointer duration-1000 hover:cursor-zoom-in hover:scale-105">
+          <img src="../assets/images/pro2.jpg" alt="" />
+          <div class="text-left text-balance p-2">
+            <h1 class="font-semibold">Project Name</h1>
+            <p class="text-xs font-light mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum maxime quod quos, rem quae nemo eveniet delectus excepturi illo nesciunt harum quidem? Reiciendis, non perferendis facilis quasi id illo?
+            </p>
+          </div>
+        </a>
+        <a href="" class="size-full object-cover border-4 dark:border-white rounded-md cursor-pointer duration-1000 hover:cursor-zoom-in hover:scale-105">
+          <img src="../assets/images/pro3.jpg" alt="" />
+          <div class="text-left text-balance p-2">
+            <h1 class="font-semibold">Project Name</h1>
+            <p class="text-xs font-light mt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum maxime quod quos, rem quae nemo eveniet delectus excepturi illo nesciunt harum quidem? Reiciendis, non perferendis facilis quasi id illo?
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
 
     <!-- Modal -->
